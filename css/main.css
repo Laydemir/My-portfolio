@@ -7,9 +7,15 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	color: #000;
 }
+
+.img {
+	width: 100%;
+}
+
 .container{
-	width: 1110px;
+	width: 1140px;
 	margin: 0 auto;
+	padding: 0 15px;
 }
 
 .none {
@@ -69,9 +75,9 @@ body {
 /*============ PORTFOLIO ============ */
 .portfolio{
 	padding-top: 80px;
-	padding-bottom: 11
-	5px;
+	padding-bottom: 15px;
 }
+
 .portfolio-header{
 	margin: 0;
 	margin-bottom: 70px;
@@ -140,7 +146,7 @@ body {
 	padding-top: 45px;
 	padding-bottom: 130px;
 	background-color: #1e4776;
-	height: 290px;
+	min-height: 290px;
 }
 .footer-inner{
 	display: flex;
@@ -273,3 +279,4 @@ line-height: 130%;
 	background-color: #275bec;
 	color: #fff;
 }
+
